@@ -1,6 +1,6 @@
 function YoutubeIcon () {
     return (
-        <>
+        <a href="#" className="relative">
             <svg 
                 width="90"
                 height="20"
@@ -33,8 +33,8 @@ function YoutubeIcon () {
                     </g>
                 </svg>
             </svg>
-            <small className="text-xs text-gray-500 -translate-x-5 -translate-y-3">BO</small>
-        </>
+            <span className="text-xsm translate-x-24 -translate-y-7 absolute">BO</span>
+        </a>
     )
 }
 

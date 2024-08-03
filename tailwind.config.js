@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontSize: {
+      xsm: '0.6rem',
+    }
   },
   plugins: [],
 }
