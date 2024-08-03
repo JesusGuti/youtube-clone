@@ -1,7 +1,7 @@
 import ThreeLines from "./icons/ThreeLines"
 import YoutubeIcon from "./icons/YoutubeIcon"
 import SearchBar from "./HeaderComponents/SearchBar"
-import UserCircle from "./HeaderComponents/UserCircle"
+import UserCircle from "./UserComponents/UserCircle"
 
 function Header () {
     return (
