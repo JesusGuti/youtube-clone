@@ -1,6 +1,6 @@
 function YoutubeIcon () {
     return (
-        <a href="#" className="relative">
+        <a href="#" className="relative mt-2.5">
             <svg 
                 width="90"
                 height="20"
