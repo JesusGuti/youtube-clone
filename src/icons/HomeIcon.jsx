@@ -1,6 +1,7 @@
 function HomeIcon () {
     return (
         <svg 
+            className="ml-1.5"
             enableBackground="new 0 0 24 24" 
             height="24" 
             viewBox="0 0 24 24" 

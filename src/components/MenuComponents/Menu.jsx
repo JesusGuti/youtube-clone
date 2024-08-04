@@ -1,31 +1,18 @@
 import HomeIcon from "@icons/HomeIcon"
+import ShortsIcon from "@icons/ShortsIcon"
+import SubscriptionIcon from "@icons/SubscriptionsIcon"
+import YouIcon from "@icons/YouIcon"
+import MenuItem from "./MenuItem"
 
 function Menu () {
     return (
-        <aside className="[grid-area:menu] p-1">
-            <nav className="bg-slate-800">
-                <ul>
-                    <li className="text-xsm p-5">
-                        <a href="#" className="flex flex-col justify-center">
-                            <HomeIcon />
-                            Principal
-                        </a>
-                    </li>
-                    <li className="text-xsm p-5">
-                        <a href="">
-                            Shorts
-                        </a>
-                    </li>
-                    <li className="text-xsm p-5">
-                        <a href="">
-                            Principal
-                        </a>
-                    </li>
-                    <li className="text-xsm p-5">
-                        <a href="">
-                            Principal
-                        </a>
-                    </li>
+        <aside className="[grid-area:menu]">
+            <nav>
+                <ul className="list-none p-2">
+                    <MenuItem icon={<HomeIcon />} text="Principal" href="#" />
+                    <MenuItem icon={<ShortsIcon />} text="Shorts" href="#" />
+                    <MenuItem icon={<SubscriptionIcon />} text="Subscriptions" href="#" />
+                    <MenuItem icon={<YouIcon />} text="You" href="#" />
                 </ul>
             </nav>
         </aside>

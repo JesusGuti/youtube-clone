@@ -17,6 +17,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'eol-last': ["error", "always"]
+    'eol-last': ["error", "always"],
+    "react/prop-types": "off"
   },
 }

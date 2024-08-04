@@ -1,6 +1,8 @@
 function SubscriptionIcon () {
     return (
         <svg 
+            className="ml-4"
+            fill="white"
             enableBackground="new 0 0 24 24" 
             height="24" 
             viewBox="0 0 24 24" 

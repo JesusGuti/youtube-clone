@@ -6,7 +6,7 @@ import MenuButton from "@components/HeaderComponents/MenuButton"
 
 function Header () {
     return (
-        <header className="[grid-area:header] flex flex-row  w-full h-14 p-6 justify-between items-center sticky">
+        <header className="[grid-area:header] flex flex-row  w-full h-14 p-5 mb-2 justify-between items-center sticky">
             <div className="flex gap-5">
                 <MenuButton />
                 <YoutubeIcon />
