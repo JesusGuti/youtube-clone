@@ -6,7 +6,7 @@ import MenuItem from "./MenuItem"
 
 function Menu () {
     return (
-        <aside className="[grid-area:menu]">
+        <aside className="[grid-area:menu] fixed">
             <nav>
                 <ul className="list-none p-2">
                     <MenuItem icon={<HomeIcon />} text="Principal" href="#" />

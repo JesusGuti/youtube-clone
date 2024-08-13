@@ -4,7 +4,7 @@ import ThumbnailTimer from "./ThumbnailTimer"
 
 function Thumbnail () {
     return (
-        <div className="h-fit relative">
+        <div className="h-fit relative -z-[1]">
             <img className="w-full box-border rounded-xl" src="thumbnail.jpg" alt="thumbnail" />
             <ThumbnailTimer />
             <aside className="flex flex-row gap-3 mt-3">
