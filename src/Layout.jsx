@@ -4,7 +4,7 @@ import Menu from "@components/MenuComponents/Menu"
 
 function Layout () {
     return (
-        <section id="layout" className="relative h-screen w-screen">
+        <section id="layout" className="relative h-screen w-screen overflow-y-scroll">
             <Header />
             <Menu />
             <Contents />

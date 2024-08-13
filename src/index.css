@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    background-color: black;
+    background-color: #0f0f0f;
     font-family: Roboto, Arial, sans-serif;
     color: #ffffff;
 }
@@ -15,4 +15,24 @@
             "menu contents";
     grid-template-rows: 4rem 1fr;
     grid-template-columns: 5rem 1fr;
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
